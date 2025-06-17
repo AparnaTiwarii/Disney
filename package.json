@@ -1,0 +1,12 @@
+{
+  "name": "disney-clone",
+  "version": "1.0.0",
+  "description": "Disney+ Clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+} 
