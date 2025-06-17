@@ -4,7 +4,7 @@
   "description": "Disney+ Clone",
   "main": "index.js",
   "scripts": {
-    "start": "npx serve -s ."
+    "start": "node -e \"require('serve')({ port: process.env.PORT || 3000, single: true })"
   },
   "dependencies": {
     "serve": "^14.2.1"
