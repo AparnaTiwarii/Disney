@@ -115,3 +115,44 @@ cardContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth + 200;
     });
 });
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 2%;
+  }
+
+  .search-box {
+    width: 150px;
+  }
+
+  .search-box:focus {
+    width: 200px;
+  }
+
+  .video-card-container {
+    flex-wrap: wrap;
+  }
+
+  .video-card {
+    min-width: calc(100% / 2 - 10px);
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 1%;
+  }
+
+  .search-box {
+    width: 100px;
+  }
+
+  .search-box:focus {
+    width: 150px;
+  }
+
+  .video-card {
+    min-width: 100%;
+  }
+}
